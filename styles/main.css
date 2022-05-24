@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  font-family: "Manrope", sans-serif;
 }
 
 .container {
@@ -47,17 +50,26 @@ body {
   padding-bottom: 22px;
 }
 
+.hero-headline h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.28571px;
+}
+
 .hero-headline h2 {
   font-size: 14px;
+  font-weight: 400;
   letter-spacing: 10px;
   opacity: 0.5;
 }
 
 .hero-headline h3 {
-  opacity: 0.5;
+  opacity: 0.75;
   font-size: 15px;
   line-height: 25px;
   padding: 0 40px 25px 40px;
+  font-weight: 500;
 }
 
 .hero-btn {
@@ -70,6 +82,7 @@ body {
 .img-container {
   margin: 50px auto;
   text-align: center;
+  height: 220px;
 }
 
 .img-thumbnail {
@@ -94,17 +107,23 @@ body {
 }
 
 .box-title {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
   margin-bottom: 25px;
 }
 
 .box a {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
   text-decoration: none;
   color: black;
   opacity: 0.5;
 }
 
 .arrow {
-  border: 2px solid #D87D4A;
+  border: 2px solid #d87d4a;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3.25px;
