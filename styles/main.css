@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
+/* DEFAULT RESET */
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,8 @@ body {
   background-size: contain;
 }
 
+/* NAVBAR */
+
 .navbar {
   border-bottom: 0.5px solid #979797;
   height: 10%;
@@ -34,7 +37,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
+/* HERO SECTION */
 .hero-headline {
   display: flex;
   width: 100%;
@@ -78,7 +81,7 @@ body {
   padding: 15px 30px;
   border: none;
 }
-
+/* SHOP SECTION */
 .img-container {
   margin: 50px auto;
   text-align: center;
