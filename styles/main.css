@@ -156,6 +156,7 @@ body {
   background: #d87d4a;
   color: white;
   position: relative;
+  overflow: hidden;
 }
 
 .product-desc {
@@ -170,6 +171,7 @@ body {
   bottom: 118.5%;
   right: 36.25%;
   margin-top: 3.5rem;
+  
 }
 
 .product-2 {
