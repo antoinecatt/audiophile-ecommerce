@@ -180,6 +180,19 @@ body {
   height: 320px;
 }
 
+#product-2_title {
+  font-size: 20px;
+  padding: 3rem 6rem 1rem 0
+}
+#product-2_btn {
+  padding-right: 7.75rem
+}
+
+.speaker-name-2 {
+  /* margin-bottom: 0.75rem;÷ */
+  
+}
+
 .product-3 {
   height: 200px;
 }
