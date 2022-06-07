@@ -266,7 +266,7 @@ li {
 }
 
 .about-photo {
-  width: 22.5rem;
+  width: 20rem;
   border-radius: 20px;
 }
 
@@ -306,7 +306,7 @@ footer {
   border: 2px solid #d87d4a;
   width: 6rem;
   position: relative;
-  bottom: 41px;
+  bottom: 40px;
   margin: 0 auto;
 }
 
