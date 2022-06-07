@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .btn {
   padding: 15px 30px;
   border: none;
@@ -262,7 +266,7 @@ a {
 }
 
 .about-photo {
-  width: 20rem;
+  width: 22.5rem;
   border-radius: 20px;
 }
 
@@ -281,6 +285,7 @@ a {
 .about-desc {
   line-height: 25px;
   opacity: 0.5;
+  padding-bottom: 6rem;
 }
 
 #highlight-orange {
@@ -288,3 +293,47 @@ a {
 }
 
 /* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 2.5rem;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+.orange-bar {
+  border: 2px solid #d87d4a;
+  width: 6rem;
+  position: relative;
+  bottom: 41px;
+  margin: 0 auto;
+}
+
+.footer-logo,
+.footer-links--container,
+.footer-desc,
+.copyright,
+.social-icons--container {
+  margin-bottom: 2.25rem;
+}
+
+.footer-link {
+  margin-bottom: 1.25rem;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.footer-desc {
+  line-height: 25px;
+}
+
+.footer-desc,
+.copyright {
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.social-links {
+  margin: 0 0.5rem;
+}
