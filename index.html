@@ -1,169 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <title>Audiophile e-commerce website</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- NAVBAR -->
-      <nav class="navbar">
-        <div class="nav-list__container">
-          <div class="mobile-menu-icon">
-            <img
-              src="./assets/shared/mobile/mobile-menu.svg"
-              alt="mobile-menu"
-            />
-          </div>
-          <!-- <ul class="nav-list">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>Audiophile e-commerce website</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-list__container">
+        <div class="mobile-menu-icon">
+          <img src="./assets/shared/mobile/mobile-menu.svg" alt="mobile-menu" />
+        </div>
+        <!-- <ul class="nav-list">
               <li class="nav-link">HOME</li>
               <li class="nav-link">HEADPHONES</li>
               <li class="nav-link">SPEAKERS</li>
               <li class="nav-link">EARPHONES</li>
             </ul> -->
+      </div>
+      <div class="logo">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+      </div>
+      <div class="cart-icon">
+        <img src="./assets/shared/desktop/icon-cart.svg" alt="cart" />
+      </div>
+    </nav>
+    <!-- HERO SECTION -->
+    <div class="hero-headline">
+      <h2 class="headline-text">NEW PRODUCT</h2>
+      <h1 class="headline-text">XX99 MARK II HEADPHONES</h1>
+      <h3 class="headline-text">
+        Experience natural, lifelike audio and exceptional build quality made
+        for the passionate music enthusiast.
+      </h3>
+      <button class="hero-btn btn">SEE PRODUCT</button>
+    </div>
+  </div>
+  <!-- SHOP -->
+  <section id="shop">
+    <div class="shop-container">
+      <div class="img-container">
+        <img class="img-thumbnail" src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
+          alt="headphones" />
+        <div class="box">
+          <h4 class="box-title">HEADPHONES</h4>
+          <a href="#">SHOP <i class="arrow right"></i></a>
         </div>
-        <div class="logo">
-          <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+      </div>
+      <div class="img-container">
+        <img class="img-thumbnail" src="./assets/shared/desktop/image-category-thumbnail-speakers.png" alt="speakers" />
+        <div class="box">
+          <h4 class="box-title">SPEAKERS</h4>
+          <a href="#">SHOP <i class="arrow right"></i></a>
         </div>
-        <div class="cart-icon">
-          <img src="./assets/shared/desktop/icon-cart.svg" alt="cart" />
+      </div>
+      <div class="img-container">
+        <img class="img-thumbnail" src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
+          alt="earphones" />
+        <div class="box">
+          <h4 class="box-title">EARPHONES</h4>
+          <a href="#">SHOP <i class="arrow right"></i></a>
         </div>
-      </nav>
-      <!-- HERO SECTION -->
-      <div class="hero-headline">
-        <h2 class="headline-text">NEW PRODUCT</h2>
-        <h1 class="headline-text">XX99 MARK II HEADPHONES</h1>
-        <h3 class="headline-text">
-          Experience natural, lifelike audio and exceptional build quality made
-          for the passionate music enthusiast.
-        </h3>
-        <button class="hero-btn btn">SEE PRODUCT</button>
       </div>
     </div>
-    <!-- SHOP -->
-    <section id="shop">
-      <div class="shop-container">
-        <div class="img-container">
-          <img
-            class="img-thumbnail"
-            src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
-            alt="headphones"
-          />
-          <div class="box">
-            <h4 class="box-title">HEADPHONES</h4>
-            <a href="#">SHOP <i class="arrow right"></i></a>
-          </div>
-        </div>
-        <div class="img-container">
-          <img
-            class="img-thumbnail"
-            src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
-            alt="speakers"
-          />
-          <div class="box">
-            <h4 class="box-title">SPEAKERS</h4>
-            <a href="#">SHOP <i class="arrow right"></i></a>
-          </div>
-        </div>
-        <div class="img-container">
-          <img
-            class="img-thumbnail"
-            src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
-            alt="earphones"
-          />
-          <div class="box">
-            <h4 class="box-title">EARPHONES</h4>
-            <a href="#">SHOP <i class="arrow right"></i></a>
-          </div>
-        </div>
+  </section>
+  <!-- PRODUCTS SECTION -->
+  <section id="products-container">
+    <div class="product-card product-1">
+      <img class="product-img product-img-1" src="./assets/home/mobile/image-speaker-zx9.png" alt="speaker zx9" />
+      <h2 class="product-name speaker-name-1">
+        ZX9 <br />
+        SPEAKER
+      </h2>
+      <p class="product-desc">
+        Upgrade to premium speakers that are phenomenally built to deliver
+        truly remarkable sound.
+      </p>
+      <button class="blk-btn btn">SEE PRODUCT</button>
+      <img class="circle-img" src="./assets/home/desktop/pattern-circles.svg" alt="circle pattern" />
+    </div>
+    <div class="product-card product-2">
+      <div id="product-2_title">
+        <h2 class="product-name speaker-name-2">ZX7 SPEAKER</h2>
       </div>
-    </section>
-    <!-- PRODUCTS SECTION -->
-    <section id="products-container">
-      <div class="product-card product-1">
-        <img
-          class="product-img product-img-1"
-          src="./assets/home/mobile/image-speaker-zx9.png"
-          alt="speaker zx9"
-        />
-        <h2 class="product-name speaker-name-1">
-          ZX9 <br />
-          SPEAKER
-        </h2>
-        <p class="product-desc">
-          Upgrade to premium speakers that are phenomenally built to deliver
-          truly remarkable sound.
-        </p>
-        <button class="blk-btn btn">SEE PRODUCT</button>
-        <img
-          class="circle-img"
-          src="./assets/home/desktop/pattern-circles.svg"
-          alt="circle pattern"
-        />
-      </div>
-      <div class="product-card product-2">
-        <div id="product-2_title">
-          <h2 class="product-name speaker-name-2">ZX7 SPEAKER</h2>
-        </div>
-        <div id="product-2_btn">
-          <a href="#"></a>
-          <button class="clr-btn btn">
-            SEE PRODUCT
-          </button>
+      <div id="product-2_btn">
+        <a href="#"></a>
+        <button class="clr-btn btn">
+          SEE PRODUCT
+        </button>
         </a>
-        </div>
       </div>
-      <div class="product-card product-3">
-        <img
-          class="product-img product-img-3"
-          src="./assets/home/mobile/image-earphones-yx1.jpg"
-          alt="earphones yx1"
-        />
-      </div>
-      <div class="product-card product-card--content">
-        <h2 class="product-name">YX1 EARPHONES</h2>
-        <a href="#"><button class="clr-btn btn product-3_btn">SEE PRODUCT</button></a>
-      </div>
-    </section>
-    <!-- ABOUT SECTION -->
-    <section id="about">
-      <div class="about-photo--container">
-        <img class="about-photo" src="./assets/shared/desktop/image-best-gear.jpg" alt="man with headphones on">
-      </div>
-      <div class="about-desc--container">
-        <h3 class="about-header">Bringing you the <br> <span id="highlight-orange">best</span> audio gear</h3>
-        <p class="about-desc">
-          Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
-        </p>
-      </div>
-    </section>
-    <!-- FOOTER -->
-    <footer></footer>
-  </body>
-</html>
+    </div>
+    <div class="product-card product-3">
+      <img class="product-img product-img-3" src="./assets/home/mobile/image-earphones-yx1.jpg" alt="earphones yx1" />
+    </div>
+    <div class="product-card product-card--content">
+      <h2 class="product-name">YX1 EARPHONES</h2>
+      <a href="#"><button class="clr-btn btn product-3_btn">SEE PRODUCT</button></a>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-photo--container">
+      <img class="about-photo" src="./assets/shared/desktop/image-best-gear.jpg" alt="man with headphones on">
+    </div>
+    <div class="about-desc--container">
+      <h3 class="about-header">Bringing you the <br> <span id="highlight-orange">best</span> audio gear</h3>
+      <p class="about-desc">
+        Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones,
+        speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to
+        browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who
+        make Audiophile the best place to buy your portable audio equipment.
+      </p>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <h3 class="footer-header">AUDIOPHILE</h3>
+    <ul class="link-container">
+      <li class="footer-link">HOME</li>
+      <li class="footer-link">HEADPHONES</li>
+      <li class="footer-link">SPEAKER</li>
+      <li class="footer-link">EARPHONES</li>
+    </ul>
+    <p class="footer-desc">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music
+      lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our
+      demo facility - we’re open 7 days a week.</p>
+    <p class="copyright">Copyright 2021. All Rights Reserved</p>
+    <div class="social-container">
+      <a href="#" class="social-links"><img src="./assets/shared/desktop/icon-facebook.svg" alt="facebook icon link"></a>
+      <a href="#" class="social-links"><img src="./assets/shared/desktop/icon-twitter.svg" alt="twitter icon link"></a>
+      <a href="#" class="social-links"><img src="./assets/shared/desktop/icon-instagram.svg" alt="instagram icon link"></a>
+    </div>
+  </footer>
+</body>
 
-<!-- Home Headphones Speakers Earphones New product XX99 Mark II Headphones
-  Experience natural, lifelike audio and exceptional build quality made for
-  the passionate music enthusiast. See product Headphones Shop Speakers Shop
-  Earphones Shop ZX9 speaker Upgrade to premium speakers that are phenomenally
-  built to deliver truly remarkable sound. See product ZX7 speaker See product
-  YX1 earphones See product Bringing you the best audio gear Located at the
-  heart of New York City, Audiophile is the premier store for high end
-  earphones, earphones, speakers, and audio accessories. We have a large
-  showroom and luxury demonstration rooms available for you to browse and
-  experience a wide range of our products. Stop by our store to meet some of
-  the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment. Home Headphones Speakers Earphones Audiophile is an all in
-  one stop to fulfill your audio needs. We're a small team of music lovers and
-  sound specialists who are devoted to helping you get the most out of
-  personal audio. Come and visit our demo facility - we’re open 7 days a week.
-  Copyright 2021. All Rights Reserved -->
+</html>
