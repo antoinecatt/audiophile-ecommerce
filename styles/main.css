@@ -148,7 +148,7 @@ a {
 /* PRODUCT SECTION */
 
 #products-container {
- padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .product-card {
@@ -255,4 +255,34 @@ a {
   border: 1px solid black;
 }
 
-/* DESCRIPTION SECTION */
+/* ABOUT SECTION */
+#about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-photo {
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.about-photo--container,
+.about-header {
+  margin-bottom: 2rem;
+}
+
+.about-header {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.25rem;
+}
+
+.about-desc {
+  line-height: 25px;
+  opacity: 0.5;
+}
+
+#highlight-orange {
+  color: #d87d4a;
+}
